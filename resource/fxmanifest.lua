@@ -4,10 +4,11 @@ game 'gta5'
 
 author 'Kreditkartenklauer'
 description 'Anti-Backdoor'
-version '1.0'
+version '4.0'
 
 
 
 
 lua54 'yes'
 server_script 'main.lua'
+
