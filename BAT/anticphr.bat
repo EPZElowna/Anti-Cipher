@@ -20,12 +20,13 @@ echo 127.0.0.1 cph-online.com >> %HOSTS_FILE%
 
 echo [INFO] Adding Cipher-Protection to your Server. . .
 echo ------------------------------------------
-echo 127.0.0.1 api-3.cipher-panel.com
-echo 127.0.0.1 cph-online.com
+echo 127.0.0.1 api-5.cipher-panel.com
+echo 127.0.0.1 cipher-panel.com
 echo ------------------------------------------
 
 echo [INFO] Cipher-URL's blocked:
-type %HOSTS_FILE% | findstr /I "cipher-panel cph-online"
+type %HOSTS_FILE% | findstr /I "cipher-panel"
 
 echo [INFO] Cipher blocked.
 pause
+
